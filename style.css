@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Red Hat Display;
+}
+
+.container {
+  background: hsl(225, 100%, 94%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 340px;
+}
+
+.wrapper {
+  width: 320px;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.wrapper .hero {
+  width: 320px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.text-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.text-info h2 {
+  font-size: 1.4rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.text-info h4 {
+  font-weight: 500;
+  width: 270px;
+  line-height: 24px;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 1rem;
+}
+
+.annual-plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 98%);
+  width: 290px;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.annual-plan a {
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+  font-size: 0.8rem;
+}
+
+.annual-plan a:active {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.music-price {
+  display: flex;
+  align-items: center;
+}
+
+.music-price img {
+  margin-right: 10px;
+}
+
+.text-plan-year p {
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+  font-weight: 900;
+}
+
+.text-plan-year h5 {
+  color: hsl(224, 23%, 55%);
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns .proceed-to-payment {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 900;
+  width: 290px;
+  margin-bottom: 1rem;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.btns .proceed-to-payment:active {
+  opacity: 0.6;
+}
+
+.btns .cancel-order {
+  border: none;
+  background-color: transparent;
+  color: hsl(224, 23%, 55%);
+  font-size: 1rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.btns .cancel-order:active {
+  color: hsl(223, 47%, 23%);
+}
